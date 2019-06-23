@@ -9,7 +9,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* Some default styles to make each box visible */
 .box {
   color:white;
-  font-size: 20px;
+  font-size: 100px;
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
@@ -28,15 +28,35 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box10 { background:#16a085;}
 
 
+
+
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display:flex;
   border:10px solid mistyrose;
   /* height:100vh;   */
+
+  /* playing with justify content - which affects main axis */
   /* justify-content: flex-start; */
-  flex-direction: column;
+  /* flex-direction: column; */
   /* justify-content: space-between; /* have font of 20px to see */ 
-  justify-content: center; /* aha - center vertical */
-  min-height: 100vh;
+  /* justify-content: center; /* aha - center vertical */
+  /* min-height: 100vh;
+
+/* aligning - deals with cross axis */
+/* need the height to make the center alignment matter */
+height: 100vh;
+/* align-items: center; */
+/* align-items: flex-start; */
+/* flex-direction: column;
+ align-items: center; */
+ align-items: baseline;
+
 }
 
+/* use with align-items baseline */
+.box1 { font-size: 30px; }
+.box3 { font-size: 150px; }
+.box4 { font-size: 200px; }
+.box5 { font-size: 10px; }
+.box10 { font-size: 77px; }

@@ -25,3 +25,11 @@ justify-content: center :)
 justify-content: space between - gives nice spacing 
 (space-around similar but adds space at ends too)
 // so if you flip direction - might need to specify height to get the same space-between effect
+
+//align-items - how items are aligned on cross axis
+// (so might need to give the container a height to see the results)
+// assuming direction row...cross axis is top to bottom
+align-items: stretch; // fills up
+align-items: center; // :)
+align-items: flex-start / flex-end; // position at top or bottom
+align-items: baseline; // this is kind of cool...aligns bottom of heights
