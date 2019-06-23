@@ -17,3 +17,11 @@ flex-wrap: wrap-reverse; // reverses the cross axis
 // order default is just 0
 order: 1; // can use -ve & +ve to reorder items
 // note quirk with selecting on page when reordered
+
+// justify content - how are items aligns on the main axis
+// with default main axis (direction,row )
+justify-content: flex-start aligns to left.  flex-end aligns to right
+justify-content: center :)
+justify-content: space between - gives nice spacing 
+(space-around similar but adds space at ends too)
+// so if you flip direction - might need to specify height to get the same space-between effect
