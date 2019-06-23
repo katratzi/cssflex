@@ -9,5 +9,8 @@ flex-direction: column-reverse;
 // main axis comes from direction and cross acces is other
 // and when reversed direction is mirrored
 
+// flex wrap - can set a width on an item but it will be 'flexible' and fill the space
+flex-wrap: wrap; // default
+flex-wrap: wrap-reverse; // reverses the cross axis
 
 
