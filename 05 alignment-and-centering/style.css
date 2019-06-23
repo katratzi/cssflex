@@ -34,29 +34,38 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   border:10px solid mistyrose;
-  /* height:100vh;   */
+  height:100vh;  
 
-  /* playing with justify content - which affects main axis */
+  /* 05 playing with justify content - which affects main axis */
   /* justify-content: flex-start; */
   /* flex-direction: column; */
   /* justify-content: space-between; /* have font of 20px to see */ 
   /* justify-content: center; /* aha - center vertical */
   /* min-height: 100vh;
 
-/* aligning - deals with cross axis */
+/* 06 aligning - deals with cross axis */
 /* need the height to make the center alignment matter */
-height: 100vh;
+/* height: 100vh; */
 /* align-items: center; */
 /* align-items: flex-start; */
 /* flex-direction: column;
  align-items: center; */
- align-items: baseline;
+ /* align-items: baseline; */
 
+ /* 07 align-content */
+flex-wrap: wrap;
+align-content: center;
+justify-content: center; /* can combine with align to fix 'straggler' in the grid */
 }
 
+.box {
+  width: 33.333%;
+}
+
+
 /* use with align-items baseline */
-.box1 { font-size: 30px; }
+/* .box1 { font-size: 30px; }
 .box3 { font-size: 150px; }
 .box4 { font-size: 200px; }
 .box5 { font-size: 10px; }
-.box10 { font-size: 77px; }
+.box10 { font-size: 77px; } */
