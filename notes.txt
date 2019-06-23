@@ -1,0 +1,13 @@
+// have inline and regular
+display:flex; display:inline-flex;
+
+// direction
+flex-direction: row; // default
+flex-direction: column;
+flex-direction: row-reverse;
+flex-direction: column-reverse;
+// main axis comes from direction and cross acces is other
+// and when reversed direction is mirrored
+
+
+
