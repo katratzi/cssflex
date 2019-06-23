@@ -53,15 +53,25 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
  /* align-items: baseline; */
 
  /* 07 align-content */
-flex-wrap: wrap;
-align-content: center;
-justify-content: center; /* can combine with align to fix 'straggler' in the grid */
+/* flex-wrap: wrap; */
+/* align-content: center; */
+/* justify-content: center; /* can combine with align to fix 'straggler' in the grid */
+
+/* 08 align self */
+align-items: flex-start;
 }
 
 .box {
   width: 33.333%;
 }
 
+/* test align self */
+.box2 { padding-bottom: 200px; }
+.box6 { padding-bottom: 0px; }
+.box9 { 
+  padding-bottom: 50px; 
+  align-self:center;
+}
 
 /* use with align-items baseline */
 /* .box1 { font-size: 30px; }

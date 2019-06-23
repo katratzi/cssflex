@@ -38,3 +38,6 @@ align-items: baseline; // this is kind of cool...aligns bottom of heights
 //note we'll need flex-wrap wrap to see the results of this
 // similar to justify-content but on seperate axis
 // have flex-start, flex-end, center, space-around, space-between
+
+// use align-self on item to override the alignment of container
+e.g. align-self: center;
