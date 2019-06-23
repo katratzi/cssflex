@@ -14,3 +14,6 @@ flex-wrap: wrap; // default
 flex-wrap: wrap-reverse; // reverses the cross axis
 
 
+// order default is just 0
+order: 1; // can use -ve & +ve to reorder items
+// note quirk with selecting on page when reordered
