@@ -41,3 +41,7 @@ align-items: baseline; // this is kind of cool...aligns bottom of heights
 
 // use align-self on item to override the alignment of container
 e.g. align-self: center;
+
+// flex sizing
+flex: 1;  // divvy up the remaining space equally
+flex: 3; // PROPORTIONALLY...take up 3 times more space
