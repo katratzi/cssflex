@@ -45,3 +45,16 @@ e.g. align-self: center;
 // flex sizing
 flex: 1;  // divvy up the remaining space equally
 flex: 3; // PROPORTIONALLY...take up 3 times more space
+
+// what's involved in flex
+flex-grow - how to deal with extra space...divide it on same line - default 0
+flex-shrink - how to deal when out of space - default 1 (and is kind of inverted..how much should 'I' give UP)
+flex-basis ... size of flex element without grow/shrink
+
+slightly counterintuitive
+flex-grow: 10 ... Gets 10 time bigger. 
+I'm going to gain 10 times proportinally of the leftover space
+flex-shrink: 10 ... Gets 10 times smaller when contsrained.  give up 10 times my space
+shorthand. 
+flex: 1 2 300px; // grow, shrink, basis
+
