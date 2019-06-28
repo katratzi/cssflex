@@ -58,3 +58,5 @@ flex-shrink: 10 ... Gets 10 times smaller when contsrained.  give up 10 times my
 shorthand. 
 flex: 1 2 300px; // grow, shrink, basis
 
+// flex-wrap allows items to 'wrap' to the next line
+// interesting effects as you change flex-direction to column instead of row
