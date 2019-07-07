@@ -60,3 +60,19 @@ flex: 1 2 300px; // grow, shrink, basis
 
 // flex-wrap allows items to 'wrap' to the next line
 // interesting effects as you change flex-direction to column instead of row
+
+// setting up gulpjs for autoprefixing
+start by creating our package.json with npm init
+// install gulp...first globally
+npm install gulp -g
+// create our gulp file - gulpfile.js, then install locally
+npm install gulp --save-dev
+npm install gulp-autoprefixer --save-dev
+// should now see these added as dependencies in package.json
+// write the gulp script (see gulpfile.js) then simply run
+gulp styles  (name from script) gulp.task("styles", function() {...
+// create a watch command to automatically reprefix the css
+gulp watch (name from script) gulp.task('watch', function () {...
+
+
+
